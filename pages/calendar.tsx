@@ -1,4 +1,5 @@
 import { SideBar } from '../components/SideBar'
+import { Title } from '../components/Title'
 
 export default function Notes() {
   return (
@@ -6,7 +7,7 @@ export default function Notes() {
       <div className="flex flex-row h-full">
      <SideBar />
       <main className="w-full py-4">
-         <h1 className="text-center text-3xl">Calendar</h1>
+         <Title>Calendar</Title>
        </main>
       </div>
     </div>

@@ -7,7 +7,7 @@ export default function Notes() {
       <div className="flex flex-row h-full">
         <SideBar />
         <main className="w-full py-4">
-          <Title>Photos</Title>
+          <Title>Documents</Title>
         </main>
       </div>
     </div>
